@@ -8,7 +8,15 @@ document.getElementById("myPar").textContent = 'I like Chocolate';
 
 let yax ;
 yax = 209;
-window.alert('The value of yax is\t'+yax);
+console.log(typeof yax);
+window.alert(`The value of yax is ${yax}`);
+let names = "Darshan ";
+console.log(`your name is ${names}`);
+console.log(`Line 3
+Line 2
+
+ `);
+console.log('THi');
 
 /*
 this is a comment
