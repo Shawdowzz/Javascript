@@ -31,6 +31,15 @@ console.log(`Is the Lift Up? : ${LiftUp}`);
 document.getElementById("p1").textContent = `Is the lift in the upmost floor ? : ${LiftUp}`;
 
 let say = 34;
+say+=2;
+console.log(say);
 console.log(say+1);
 console.log(say**2); // power of 2^2
 console.log(say%2);
+
+let may = 1 +(2+3)+3+5;
+console.log(`may value if ${may}`);
+
+let username;
+username = window.prompt("what is your name ");
+document.getElementById("p3").textContent = `Your name is ${username}`;
