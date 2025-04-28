@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
+  <title>Welcome Page</title>
 </head>
 <body>
-<h2>Demo JavaScript in Head</h2>
+  <h1 id="headers">Welcome</h1>
+  <input id="in"> <br><br>
+  <button id="submit">SUBMIT</button>
 
-<p id="demo">A Paragraph</p>
-<button type="button" onclick="document.getElementById('demo').style.display='none'">Try it</button>
-
+  <script>
+    let user;
+    document.getElementById("submit").onclick = function() {
+      user = document.getElementById("in").value;
+      document.getElementById("headers").textContent = `Welcome ${user} !!`;
+    };
+  </script>
 </body>
 </html>

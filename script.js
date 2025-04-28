@@ -1,4 +1,4 @@
-console.log('Hello');
+/*console.log('Hello');
 console.log('\n I love Chocolate');
 
 //window.alert('You are learning Javascript');
@@ -19,8 +19,6 @@ Line 2
 console.log('THi');
 
 /*
-this is a comment
-*/
 
 //You know this is single line comment
 
@@ -43,3 +41,10 @@ console.log(`may value if ${may}`);
 let username;
 username = window.prompt("what is your name ");
 document.getElementById("p3").textContent = `Your name is ${username}`;
+*/
+
+let user;
+document.getElementById("button").onclick = function() {
+    user = document.getElementById("in").value; // Changed ariaValueMax to value
+    document.getElementById("headers").textContent = `Welcome ${user} !!`;
+}
