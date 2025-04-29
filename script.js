@@ -44,7 +44,12 @@ document.getElementById("p3").textContent = `Your name is ${username}`;
 */
 
 let user;
+var names = 56;
+    names = 567;
+    console.log(names)
+
 document.getElementById("button").onclick = function() {
     user = document.getElementById("in").value; // Changed ariaValueMax to value
     document.getElementById("headers").textContent = `Welcome ${user} !!`;
+    
 }
