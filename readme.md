@@ -7,5 +7,5 @@ This is a demo project for **Javascript** learning and development
 -> Just a random image of animal <br><br>
  <img  src="images/image.jpg" alt="google.com" width="400" height="200">
 
-->Note : The above files included is for entertainment and education purpose only This may include audios , videos , images belong to original creators so please note I own none of these files except the program files
+-><b>Note</b> :<i> The above files included is for entertainment and education purpose only .This may include audios , videos , images belong to original creators so please note I own none of these files except the program files</i>
  
