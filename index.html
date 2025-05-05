@@ -135,11 +135,21 @@
         </table>
         <br>
         <a href="https://www.yandex.com" target="_blank">
-        <button id="click" style="color:rgb(15, 15, 15); background-color: gray ;padding:20px;border-radius:30px">
+        <button  style="color:rgb(15, 15, 15); background-color: gray ;padding:20px;border-radius:30px">
             Click Here !
         </button>
         </a>
+        <br>
+        <button onclick="nope()">Click</button>
+        <p id="yup">Hi</p>
+        <p id="no"></p>
 
+        <script>
+            function nope(){
+             
+             document.getElementById('yup').innerHTML =`<a href="https://www.google.com" target="_blank">hello</a>`;
+}
+        </script>
       
     </body>
 </html>
