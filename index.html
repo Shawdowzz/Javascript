@@ -4,7 +4,7 @@
         <title>Heat Waves</title>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/icon" href="images/favicon.jpg">
-        <link rel="javascript" href="script.js">
+       
     </head>
     <body>
         <h1 style="font-family:'New Times Roman';font-size:80px;"><span style="background-color:#df435d">Heat Waves</span></h1>
@@ -143,12 +143,24 @@
         <button onclick="nope()">Click</button>
         <p id="yup">Hi</p>
         <p id="no"></p>
+        <br>
 
-        <script>
-            function nope(){
-             
-             document.getElementById('yup').innerHTML =`<a href="https://www.google.com" target="_blank">hello</a>`;
-}
+
+        <div id="_1">
+            <form action="index.php" method="POST">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" required placeholder="Your Name" minlength="8" maxlenght="10">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email Id" minlength="10" maxlength="25">
+                <br>
+                <input  type="submit">
+                <input   type="reset">
+
+            </form>
+        </div>
+        <script src="script.js">
+           
         </script>
       
     </body>

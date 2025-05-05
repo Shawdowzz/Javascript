@@ -57,3 +57,7 @@ document.getElementById('click').addEventListener('click', function() {
     document.getElementById('click').textContent = `Welcome!!!`;
 });
 
+function nope(){
+             
+    document.getElementById('yup').innerHTML =`<a href="https://www.google.com" target="_blank">hello</a>`;
+}
