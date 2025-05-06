@@ -13,14 +13,6 @@ body{
     background-size:cover;
 
 }
-pre{
-    border: 5px solid rgb(28, 182, 243);
-    margin: 40px;
-    padding : 50px;
-    justify-content:center;
-    align-items:center;
-    background-color: rgb(74, 101, 255);
-}
 
 table{
      background-color:black;
@@ -42,7 +34,7 @@ tr{
 
 }
 .head1{
-    text-shadow:3px 3px 5px grey;
+    text-shadow:6px 6px 8px grey,-3px 3px 5px gold;
     font-family:sans-serif,Arial, Helvetica, sans-serif;
     font-size:80px;
     border:8px outset brown;
@@ -52,6 +44,12 @@ tr{
     color:rgb(0, 0, 0); 
     font-family:sans-serif,arial;
     font-weight: 2px;
+    border: 5px outset rgb(28, 182, 243);
+    margin: 40px;
+    padding : 50px;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(74, 101, 255);
 }
 .div3{
     border:4px solid #ff0000;
@@ -69,13 +67,20 @@ tr{
     border: 3px solid rgb(0, 0, 0);
      background-color:chartreuse; 
      margin: 40px ; 
-     padding: 30px
+     padding: 30px;
+     box-shadow: 8px 8px 7px white;
 }
 .vd{
     border:2px groove rgb(0, 0, 0);
 }
 .head2{
-    border:3px outset rgb(233, 12, 49);
-    text-shadow: 3px 3px 5px;
+    border:5px outset rgb(233, 12, 49);
+    text-shadow: 3px 3px 5px blueviolet;
     padding : 10px;
+}
+.btn{
+    color:rgb(15, 15, 15);
+     background-color: rgb(233, 236, 12) ;
+     padding:20px;
+     border-radius:30px
 }
