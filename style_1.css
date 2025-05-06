@@ -2,17 +2,44 @@
     font-size:20px;
     font-family:sans-serif,arial;
     color:rgb(0, 0, 0);
-    background-color:rgb(255, 255, 255)
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    margin: 40px;
 }
-.o,.p,.q,.r{
- font-size:18px;
- font-family:sans-serif,arial;
- color:rgb(0, 0, 0);
- background-color:white;
-}
+
 #id1{
-    font-size:40px
+    margin:0.8em;
+    padding:10px;
+    border-width:8px;
+    font-size:40px;
+    font-weight:bold;
+    border-style:outset;
 }
 #id2{
+    margin:1.4em;
+    padding:1.2em;
+    background-color:white;
+    border-style:outset;
+    border-width:10px;
     font-size:30px;
+    font-weight:bold;
+}
+.head{
+    
+    background-color:grey;
+    color:white;
+}
+.mn{
+    background-image: url(images/bgv.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dv{
+    padding: 10px;
+    margin: 40px;
+    font-size:18px;
+    font-family:sans-serif,arial;
+    color:rgb(0, 0, 0);
+    background-color:white;
 }
