@@ -147,10 +147,15 @@
 
 
         <div id="_1">
-            <form action="index.php" method="POST">
+            <form action="index.php" method="POST" enctype="multipart/form-data">
                 <label for="Name">Name</label>
                 <input type="text" id="Name" required placeholder="Your Name" minlength="8" maxlenght="10">
                 <br>
+                <label for="title">Title</label><br>
+                <label for="Mr.">MR</label>
+                <input type="radio" id="Mr." value="Mr." name="title"><br>
+                <label for="Ms.">MS</label>
+                <input type="radio" id="Ms." value="Ms." name="title"><br>
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Your Email Id" minlength="10" maxlength="25">
                 <br>
@@ -160,7 +165,27 @@
                 <label for="Birthdate">DOB</label>
                 <input type="date" id="Birthdate" ><br>
                 <label for="quantity">Quantity</label>
-                <input type="number" id="quantity">
+                <input type="number" id="quantity" min="0" max="100" value="1">
+                <br>
+                <label for="favourite No">favourite Number</label>
+                <select id="favourite No ">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select><br>
+                <label for="Genre">Song Genre</label>
+                <label for="Phonk"Phonk></label>
+                <input type="checkbox" id="Phonk" value="Phonk" name="Genre">
+                <label for="HipHop">HipHop</label>
+                <input type="checkbox" id="HipHop" value="HipHop" name="Genre"><br>
+                <label for="Feedback">Feedback</label>
+                <input type="comment" id="Feedback" rows="40" cols="60" >
+
+                <br>
+                <label for="File">Upload feedback file</label>
+                <input type="file" id="File" accept="image/png,image/jpg"
+
+                
 
                 <input  type="submit">
                 <input   type="reset">
