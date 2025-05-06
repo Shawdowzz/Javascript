@@ -1,0 +1,18 @@
+.bd{
+    font-size:20px;
+    font-family:sans-serif,arial;
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255)
+}
+.o,.p,.q,.r{
+ font-size:18px;
+ font-family:sans-serif,arial;
+ color:rgb(0, 0, 0);
+ background-color:white;
+}
+#id1{
+    font-size:40px
+}
+#id2{
+    font-size:30px;
+}
