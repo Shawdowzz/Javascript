@@ -71,7 +71,8 @@ tr{
      box-shadow: 8px 8px 7px white;
 }
 .vd{
-    border:2px groove rgb(0, 0, 0);
+    border:2px outset rgb(0, 0, 0);
+    box-shadow:6px 5px 5px gold, -6px -6px 6px red;
 }
 .head2{
     border:5px outset rgb(233, 12, 49);
@@ -82,5 +83,7 @@ tr{
     color:rgb(15, 15, 15);
      background-color: rgb(233, 236, 12) ;
      padding:20px;
-     border-radius:30px
+     border-radius:30px;
+      /* Or pink, per your earlier question */
+     box-shadow: 5px 5px 5px gold, -5px -5px 5px red;
 }
