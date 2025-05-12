@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Information Form</title>
+ <link rel="icon" type="image/png" href="images/form.png">
+ <link rel="stylesheet" href="style_3.css">
+</head>
+<body>
+  <div class="form">
+  <h1>Information Form</h1>
+  <h3>Please fill your information in the given form below</h3>
+  <form action="index.html">
+     <label for="title"><b>Title:</b></label><br>
+     <label for="Mr.">MR.</label>
+     <input type="radio"id="Mr." name="title">
+     <label for="Ms.">MS.</label>
+     <input type="radio" id="Ms." name="title">
+     <label for="Dr.">Dr.</label>
+     <input type="radio" id="Dr." name="title"><br>
+     <label for="username"><b>Username:</b></label>
+    <input type="text" id="username" style="border:2px solid black;padding: 4px; border-radius:4px;margin:10px;" placeholder="John Doe" minlength="4"><br>
+    <label for="email"><b>Email id:</b></label>
+    <input type="email" id="email" style="border:2px solid black;padding: 4px; border-radius:4px;margin:10px;" placeholder="JohnDoe@gmail.com" required>
+    <br>
+    <label for="Phone"><b>Phone No:</b></label>
+    <input type="tel" id="Phone" style="border:2px solid black;padding: 4px; border-radius:4px;margin:10px;" placeholder="91234567890" pattern="[0-9]{5}-[0-9]{5}">
+    <br>
+
+  </form>
+</body>
+</html>
