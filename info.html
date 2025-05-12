@@ -12,11 +12,11 @@
   <form action="index.html">
      <label for="title"><b>Title:</b></label><br>
      <label for="Mr.">MR.</label>
-     <input type="radio"id="Mr." name="title">
+     <input type="radio"id="Mr." value="Mr" name="title">
      <label for="Ms.">MS.</label>
-     <input type="radio" id="Ms." name="title">
+     <input type="radio" id="Ms."value="Mr" name="title">
      <label for="Dr.">Dr.</label>
-     <input type="radio" id="Dr." name="title"><br>
+     <input type="radio" id="Dr." value="Mr" name="title"><br>
      <label for="username"><b>Username:</b></label>
     <input type="text" id="username" style="border:2px solid black;padding: 6px; border-radius:6px;margin:10px;" placeholder="John Doe" minlength="4"><br>
     <label for="email"><b>Email id:</b></label>
@@ -27,10 +27,30 @@
     <br>
     <label for="Bdate"><b>Birthday:</b></label>
     <input type="date" id="Bdate" style="border:1px solid black;padding:5px">
+    <br><br>
+    <label for="sib"><b>How many siblings do you have ?</b></label><br>
+    <input type="number" id="sib" min="0" max="10" style="border:2px solid black;padding: 6px; border-radius:6px;margin:10px;">
+    <br>
+    <label for="FA"><b>Favourate Animal :</b></label>
+    <select id="FA" style="border:2px solid black;padding: 6px; border-radius:6px;margin:10px;">
+        <option value="Dog">Dog</option>
+        <option value="Cat">Cat</option>
+    </select>
+    <br>
+    <label for="Fb"><b>Other Details</b></label>
+    <textarea id="Fb" row="3" col="5"></textarea>
+    <br>
+    <label for="Cb"><b>Filled all the above details</b></label>
+    <input type="checkbox" id="Cb">
+    
+    
+    
+    
     <br>
     <br>
     <input type="reset" style="padding:8px;border-radius:20px;margin:10px;background-color:tomato;">
     <input type="submit" style="padding:8px;border-radius:20px;margin:10px;background-color:aquamarine; ">
+    
     
 
   </form>
