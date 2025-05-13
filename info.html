@@ -9,7 +9,7 @@
   <div class="form">
   <h1>Information Form</h1>
   <h3>Please fill your information in the given form below</h3>
-  <form action="index.html">
+  <form action="index.html" method="POST" enctype="multipart/form-data">
      <label for="title"><b>Title:</b></label><br>
      <label for="Mr.">MR.</label>
      <input type="radio"id="Mr." value="Mr" name="title">
@@ -20,13 +20,13 @@
      <label for="username"><b>Username:</b></label>
     <input type="text" id="username" style="border:2px solid black;padding: 6px; border-radius:6px;margin:10px;" placeholder="John Doe" minlength="4"><br>
     <label for="email"><b>Email id:</b></label>
-    <input type="email" id="email" style="border:2px solid black;padding: 6px; border-radius:6px;margin:10px;" placeholder="JohnDoe@gmail.com" required>
+    <input type="email" id="email" style="border:2px solid black;padding: 6px; border-radius:6px;margin:10px;margin-left:20px;" placeholder="JohnDoe@gmail.com" required>
     <br>
     <label for="Phone"><b>Phone No:</b></label>
     <input type="tel" id="Phone" style="border:2px solid black;padding: 6px; border-radius:6px;margin:10px;" placeholder="91234567890" pattern="[0-9]{5}-[0-9]{5}" maxlength="10" required>
     <br>
-    <label for="Bdate"><b>Birthday:</b></label>
-    <input type="date" id="Bdate" style="border:1px solid black;padding:5px">
+    <label for="Bdate" style="margin-right:90px;"><b>Birthday:</b></label>
+    <input type="date" id="Bdate" style="border:2px solid black;padding:5px;border-radius:5px;">
     <br><br>
     <label for="sib"><b>How many siblings do you have ?</b></label><br>
     <input type="number" id="sib" min="0" max="10" style="border:2px solid black;padding: 6px; border-radius:6px;margin:10px;">
@@ -38,10 +38,10 @@
     </select>
     <br>
     <label for="Fb"><b>Other Details</b></label>
-    <textarea id="Fb" row="3" col="5"></textarea>
+    <textarea id="Fb" rows="3" cols="25" ></textarea>
     <br>
     <label for="file"><b>Upload your photo</b></label>
-    <input type="file" id="file" accept="image/png,image/jpg"><br>
+    <input type="file" id="file" accept="image/png,image/jpeg"><br>
     <label for="Cb"><b>Filled all the above details</b></label>
     <input type="checkbox" id="Cb">
     
