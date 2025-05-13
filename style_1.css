@@ -1,48 +1,26 @@
-.bd{
-    font-size:20px;
-    font-family:sans-serif,arial;
-    color:rgb(0, 0, 0);
-    background-color:rgb(255, 255, 255);
-    padding: 10px;
-    margin: 40px;
+@font-face{
+  src: url("fonts/Roboto.ttf");
+ font-family:Roboto;
 }
 
-#id1{
-    margin:0.8em;
-    padding:10px;
-    border-width:8px;
-    font-size:40px;
-    font-weight:bold;
-    border-style:outset;
-}
-#id2{
-    margin:1.4em;
-    padding:1.2em;
-    background-color:white;
-    border-style:outset;
-    border-width:10px;
-    font-size:30px;
-    font-weight:bold;
-}
-.head{
-    
-    background-color:grey;
+.int{
     color:white;
+    width: 800px;
+    height: 500px;
+    box-shadow:5px 5px 5px;
+    border-radius: 20px;
+    align-items:right;
+    background-image: url("images/avatar1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover,contain;
+    align-items:center;
 }
-.mn{
-    background-image: url(images/bgv.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center;
+#det{
+    padding: 10px;
+    margin: 30px;
+    width:200px;
+    height:100px;
+    background-color:rgb(0, 0, 0);
+    border-radius: 10px;
+    
 }
-.dv{
-    padding: 8px;
-    margin: 40px;
-    font-size:18px;
-    font-family:sans-serif,arial;
-    color:rgb(0, 0, 0);
-    background-color:white;
-    display: block;
-    visibility: visible;
-}
-
