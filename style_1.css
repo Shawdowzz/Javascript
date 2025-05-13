@@ -2,25 +2,36 @@
   src: url("fonts/Roboto.ttf");
  font-family:Roboto;
 }
-
+body{
+    font-family:Roboto;
+}
 .int{
     color:white;
     width: 800px;
     height: 500px;
-    box-shadow:5px 5px 5px;
+    box-shadow:5px 5px 10px black;
     border-radius: 20px;
     align-items:right;
-    background-image: url("images/avatar1.jpg");
+    background-image: url("images/avatar2.jpg");
     background-repeat:no-repeat;
     background-size:cover,contain;
-    align-items:center;
+    
+    
 }
 #det{
+    
     padding: 10px;
     margin: 30px;
     width:200px;
     height:100px;
     background-color:rgb(0, 0, 0);
     border-radius: 10px;
-    
+    box-sizing:content-box;
+}
+#head1{
+   display:inline;
+   background-color:black;
+   margin-left:20px;
+   padding:10px;
+   border-radius:4px;
 }
