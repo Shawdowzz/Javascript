@@ -16,3 +16,12 @@ document.getElementById('sub').onclick = function(){
     fav =document.getElementById('input').value;
     document.getElementById('op').textContent =`${fav}`;
 };
+let Yourname = window.prompt(`your name is ?`);
+Yourname = Number(Yourname);
+Yourname+=1;
+Yourname=Boolean(Yourname);
+console.log(Yourname);
+
+const place = 20;
+place =23;
+console.log(place);
