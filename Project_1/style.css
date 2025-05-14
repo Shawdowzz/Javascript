@@ -1,14 +1,30 @@
 @font-face{
   src: url("fonts/Roboto.ttf");
- font-family:Roboto;
+ font-family:"Roboto";
+}
+body{
+    background-color:aqua;
+    font-family:"Roboto";
+    text-align:center;
+    border:4px inset black;
+    box-sizing:border-box;
+
 }
 #length{
     border: 2px solid black;
     border-radius: 4px;
-    margin-left:30px;
+    margin-left:20px;
+    padding:5px
 }
 #breadth{
     border: 2px solid black;
     border-radius: 4px;
-    padding:10px
+    padding:5px;
+    margin-left:10px;
+}
+#sub{
+     background-color:blueviolet;
+     padding:10px;
+     border-radius:10px;
+     margin-left: 30px;
 }
