@@ -1,0 +1,28 @@
+@font-face{
+    src: url("Roboto.ttf");
+    font-family: Roboto;
+}
+body{
+    font-family:Roboto;
+}
+#btns{
+
+    text-align:center;
+}
+#count{
+   display:block;
+    font-size: 10em;
+    text-align:center;
+}
+.btn{
+    padding: 20px 30px;
+    color:white;
+    background-color:rgb(60, 255, 0);
+    font-size:20px;
+    border-radius:15px;
+    margin: 40px;
+    border: solid rgb(60, 255, 0);
+}
+.btn:hover{
+    background-color:rgb(79, 192, 4);
+}
