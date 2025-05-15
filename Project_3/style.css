@@ -1,0 +1,19 @@
+#btn{
+    padding:10px 80px;
+    border-radius: 10px;
+    color:white;
+    background-color:blueviolet;
+    text-align:center;
+    margin:60px auto;
+    display:block;
+    border: rgb(150, 87, 209);
+}
+#gen{
+
+    display:block;
+    text-align:center;
+    font-size: 40px;
+}
+#btn:hover{
+    background-color:rgb(132, 0, 255)
+}

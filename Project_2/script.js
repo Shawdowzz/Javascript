@@ -28,16 +28,28 @@ console.log(x);
  x =Math.ceil(x);
  console.log(x);
 
- let n = -20;
+ let n = 90;
  let m = 2;
- let v;
+ let v =3;
  //v = Math.sqrt(n);
  //v = Math.log(n);
  //v =Math.cos(n); //in radians
  //v =Math.tan(n);
  //v = Math.sin(n);
 //  v =Math.abs(n); // absolute value (opposite value)
+ //v = Math.sign(n);
+
+//let max = Math.max(n,m,v);
+//let min = Math.min(n,m,v);
 
 
+// console.log(max);
+// console.log(min);
 
- console.log(v);
+
+// generate random num
+//let ran = Math.floor(Math.random()*4)+1;
+const max = 20;
+const min = 5;
+let ran = Math.floor(Math.random()*(max-min))+min;
+console.log(ran);
