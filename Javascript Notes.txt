@@ -1,0 +1,27 @@
+// datatypes : boolean , undefined , null , intergers , float , String , characters
+
+Declaring of variable :
+var name ; global variable 
+let myName; local variable
+const myNames = "John Doe";
+
+declaring of array:
+
+var myArr = [90,92,94];
+
+two dimensional array:
+
+var myArry = [[9,8],[8,3]];
+
+change of value in array:
+
+myArry[1][0]=6;
+
+myArry.push([1,2]);
+// myArry = [[9,8],[6,2],[1,2]]; pushes an element into arry
+
+myArry.pop(); removes last element
+//myArry = [[9,8],[6,2]];
+
+myArry.shift(); 
+//myArry = [[6,2]]; removes 1st element
