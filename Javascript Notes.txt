@@ -25,3 +25,24 @@ myArry.pop(); removes last element
 
 myArry.shift(); 
 //myArry = [[6,2]]; removes 1st element
+myArry.unshift([1,0]);
+/// adds 1stt element
+
+function add(a,b){
+    var result = a+b;
+    return result;
+}
+console.log(add(9,0));
+
+
+// use of equating operator
+
+if(a==b)  checks if a and b value are same , converts types i.e '6' to 6 
+if(a===b) checks if a & b value datatypes are same
+
+// not equal operator 
+if(a!=b) check if a & b are same with type conversion
+if(a!==b) strict inequality operator
+
+// operator presedence
+ paranthesis -> exponents -> multi / div -> add / sub
