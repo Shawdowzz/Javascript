@@ -1,0 +1,26 @@
+.btn{
+  border:none;
+  padding:10px 30px;
+  background-color: #e31754;
+  border-radius: 20px;
+  color:white;
+  font-family:Monospace;
+  font-size:20p;
+  font-weight:bold;
+  margin:10px;
+  box-shadow:0px 10px 4px black;
+  transition:all 0.5s ease;
+}
+.btn:hover{
+  cursor:pointer;
+  transform:scale(1.25);
+  
+}
+body{
+  background-color:#ffe92e;
+  background:linear-gradient(135deg ,#cc581f,#ff962f,#ffe92e);
+  
+}
+.di{
+  justify-items: center;
+}

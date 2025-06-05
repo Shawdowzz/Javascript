@@ -46,3 +46,14 @@ if(a!==b) strict inequality operator
 
 // operator presedence
  paranthesis -> exponents -> multi / div -> add / sub
+
+
+ Type conversion :
+
+ let name = "10"
+ name = Number(name);
+ console.log(name);
+ name = String(name);
+ name = Boolean(name);
+
+ console.log(typeof name);  // typeof used to know datatype of the var
