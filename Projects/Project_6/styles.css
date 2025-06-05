@@ -10,9 +10,13 @@
  text-align:center;
  padding:40px;
  margin:80px;
+ width:auto;
  box-shadow:5px 5px 5px rgb(0, 0, 0);
- box-sizing:border-box;
+ box-sizing:content-box;
  background-color:#FFE6E1;
+ font-family:monospace;
+ font-size:20px;
+ 
 
 }
 body{
