@@ -1,6 +1,7 @@
 import {Button} from "./Button.jsx"
 import {Kano} from "./Button.jsx"
 import Hell from "./Hello.jsx"
+import Random from "./RandomNum.jsx"
 function App(){
   return  <div>
     <h1>Hello</h1>
@@ -8,6 +9,9 @@ function App(){
     <Button></Button>
     <Kano></Kano>
     <Hell></Hell>
+    
+    <Random></Random>
+    <Random></Random>
   </div>
 }
 export default App;
