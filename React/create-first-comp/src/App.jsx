@@ -4,9 +4,10 @@ import Hell from "./Hello.jsx"
 function App(){
   return  <div>
     <h1>Hello</h1>
-    <Hell></Hell>
+    
     <Button></Button>
     <Kano></Kano>
+    <Hell></Hell>
   </div>
 }
 export default App;

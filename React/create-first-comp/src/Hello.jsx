@@ -1,7 +1,9 @@
 function Hell(){
-  let name = 'Darshan D'
+  let name = () => {
+    return 'Darshan'
+  }
   return <h2>
-    Hello {name} !!
+    Hello {name()} !!
   </h2>
 }
 export default Hell;
