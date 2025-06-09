@@ -16,7 +16,7 @@ function App() {
     </div>
   </div>
 
-  <div class="container text-center">
+  
    <div class="row">
     <div class="col-4">
       Buy Chocolate
@@ -25,9 +25,21 @@ function App() {
       2/4/2025</div>
     </div>
     <div class="col-2">
-      <button type="button" class="btn btn-secondary">Secondary</button>
+      <button type="button" class="btn btn-secondary"> Delete </button>
     </div>
-  </div>
+  
+
+   <div class="row">
+    <div class="col-4">
+      Buy Ice cream
+    </div>
+    <div class="col-4">
+      1/4/2025</div>
+    </div>
+    <div class="col-2">
+      <button type="button" class="btn btn-secondary">Delete</button>
+    </div>
+  
 </div>
   </center>
 }
