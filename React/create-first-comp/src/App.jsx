@@ -10,8 +10,8 @@ function App(){
     <Kano></Kano>
     <Hell></Hell>
     
-    <Random></Random>
-    <Random></Random>
+    <Random/>
+    <Random/>
   </div>
 }
 export default App;
