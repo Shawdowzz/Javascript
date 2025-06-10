@@ -1,11 +1,11 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-
+import Cars from './Components/CarMap';
 function App() {
   
 
-  return <React.Fragment>
+  return (<>
     <h1>Favourite Car</h1>
      <ul class="list-group">
   <li class="list-group-item">BMW</li>
@@ -14,8 +14,10 @@ function App() {
   <li class="list-group-item">Audi</li>
   <li class="list-group-item">Ferrari</li>
    </ul>
-  </React.Fragment>
-    
+
+   <Cars></Cars>
+  </>
+  );
   
 }
 
