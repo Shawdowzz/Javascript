@@ -1,4 +1,4 @@
 function Clockbody() {
-  return <p>The time is in IST </p>
+  return <p className="fw-semibold">The time is in IST </p>
 }
 export default Clockbody;
