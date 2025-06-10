@@ -1,0 +1,13 @@
+/* Add some container styling */
+.to-do-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem; /* More standard than font:90px */
+  font-family: monospace;
+  margin: 30px;
+  color: #2c3e50; /* Add a nice color */
+}
