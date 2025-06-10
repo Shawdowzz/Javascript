@@ -1,5 +1,23 @@
 h1{
-  font-size:50px;
+  font-size:70px  ;
   font-family:monospace;
+  font-weight: 800 ;
   margin:80px;
+  padding :40px;
+}
+.task_container{
+  text-align:left !important;
+}
+input{
+  width:100%;
+}
+.appRow{
+  margin : 10px 5px;
+}
+.todo_container{
+  text-align:center;
+  justify-content:center;
+}
+.btn-sze{
+  width:80px;
 }
