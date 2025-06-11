@@ -1,21 +1,17 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-import Cars from './Components/CarMap';
+import Cars from './Components/CarMap.jsx';
+import Error from './Components/ErrorMsg.jsx'
+
+
 function App() {
-  
+  let Car = ['BMW','Audi','Toyota','Nissan'];
 
   return (<>
     <h1>Favourite Car</h1>
-     <ul class="list-group">
-  <li class="list-group-item">BMW</li>
-  <li class="list-group-item">Koenigsegg</li>
-  <li class="list-group-item">Volkswagon</li>
-  <li class="list-group-item">Audi</li>
-  <li class="list-group-item">Ferrari</li>
-   </ul>
-
-   <Cars></Cars>
+     <Error></Error>
+     <Cars></Cars>
   </>
   );
   

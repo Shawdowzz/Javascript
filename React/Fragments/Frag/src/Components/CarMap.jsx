@@ -1,18 +1,17 @@
+import Item from './Items.jsx'
+
 let Cars= () => {
 
   //let Car = [];
-  let Car = ['BMW','Audi','Toyota','Nissan'];
-  //let emty = Car.length === 0 ? <h1>NO cars </h1> : null ;
+  let Car = ['BMW','Audi','Toyota','Nissan','Land Rover','Jaguar'];
+
   return (
     <>
-    <h1>Car list -2 </h1>
-    {Car.length === 0 && <h2>No Cars Avaliable</h2>}
+    <h1>Car list -1 </h1>
+   
     <ul className="list-group">
-    {Car.map((items)=>
-      (<li key={items} className="list-group-item">{items}</li>
-
-
-      ))}
+       {Car.map((items)=>
+          (<Item  key={items} Car={items}></Item>))}
     </ul>
     </>
   );
