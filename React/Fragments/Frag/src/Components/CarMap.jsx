@@ -1,7 +1,7 @@
 let Cars= () => {
 
-  let Car = [];
-  //let Car = ['BMW','Audi','Toyota','Nissan'];
+  //let Car = [];
+  let Car = ['BMW','Audi','Toyota','Nissan'];
   //let emty = Car.length === 0 ? <h1>NO cars </h1> : null ;
   return (
     <>
